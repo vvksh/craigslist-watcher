@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  craigslist:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vvksh/nightswatch-craigslist:0.4
+
